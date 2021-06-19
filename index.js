@@ -17,33 +17,33 @@ function press(key){
   var file="";
   switch (key) {
     case "w":
-    file="sounds/tom-1.mp3";
+    file="tom-1.mp3";
 
       break;
     case "a":
-    file="sounds/tom-2.mp3";
+    file="tom-2.mp3";
 
         break;
     case "s":
-    file="sounds/tom-3.mp3";
+    file="tom-3.mp3";
 
           break;
     case "d":
-    file="sounds/tom-4.mp3";
+    file="tom-4.mp3";
 
             break;
     case "j":
-    file="sounds/crash.mp3";
+    file="crash.mp3";
     break;
     case "k":
-    file="sounds/kick-bass.mp3";
+    file="kick-bass.mp3";
     break;
     case "l":
-    file="sounds/snare.mp3";
+    file="snare.mp3";
       break;
 
       default:
-      file="sounds/ss.mp3";
+      file="ss.mp3";
       
 }
       var audio=new Audio(file);
